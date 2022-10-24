@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MY GOOGLE</title>
     <link rel="stylesheet" href="google_style.css">
-</head>
+    <link rel="stylesheet" href="form.css">
 <body>
     <nav>
         
@@ -13,7 +13,33 @@
           <li><a href="#">Gmail</a></li>
           <li><a href="#">Images</a></li>
           <li><a href="#"><img class="apps" src="images/grid icon.png"</a></li>
-          <li class="sign_in"><a href="#">Sign in</a></li>
+          <!--the button pops up when clicked-->
+          <button class="open-button" onclick="openForm()">Sign in<Inp></Inp></button>
+          <div class="form-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+              <h1>Login</h1>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="text" placeholder="Enter Email" name="email" required>
+          
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required> ,<!--hides the characters being written-->
+          
+              <button type="submit" class="btn">Login</button>
+              <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+
+              <!--the script for the pop up form: from W3schools-->
+              <script>
+                function openForm() {
+                  document.getElementById("myForm").style.display = "block";
+                }
+                
+                function closeForm() {
+                  document.getElementById("myForm").style.display = "none";
+                }
+                </script>
+            </form>
+          </div>
         </ul>
       </nav>
       
@@ -36,5 +62,6 @@
           <li><a href="#">Settings</a></li>
         </ul>
       </footer>
+      </head>
 </body>
 </html>

@@ -3,7 +3,7 @@ body {
     font-family: sans-serif;
   }
   
-  /* ------- Nav Items ------- */
+  /* navigators */
   
   ul {
     list-style: none;
@@ -21,7 +21,7 @@ body {
     padding: 4px 20px;
   }
   
-  /* ------- Top Nav ------- */
+  /* Top Nav  */
   
   nav img {
     list-style: none;
@@ -40,7 +40,7 @@ body {
     opacity: 0.65;
   }
   
-  /* ------- Right Nav Items ------- */
+  /* Right Nav Items */
   
   .r_nav {
     float: right;
@@ -61,7 +61,7 @@ body {
     opacity: 1;
   }
   
-  /* ------- Sign In Button ------- */
+  /* Sign In Button */
   
   .sign_in {
     border: 1px solid #4285f4;
@@ -89,8 +89,7 @@ body {
     opacity: 1;
     box-shadow: 0 1.5px 0 0 #e4e4e4;
   }
-  
-  /* ------- Center Conte ------- */
+  /*center container*/
   
   .cntr_pg {
   
@@ -124,6 +123,7 @@ body {
     margin-bottom: 20px;
     outline: none;
     text-indent: 15px;
+    border-radius: 15px;
   }
   
   .search_bar:hover, .search_bar:active {
@@ -173,7 +173,7 @@ body {
     box-shadow:0px 1px 4px #E4E4E4;
   }
   
-  /* ------- Footer ------- */
+  /* Footer  */
   
   .l_ftr {
     float: left;
@@ -202,4 +202,4 @@ body {
   
   footer a:hover {
     text-decoration-line: underline;
-  }  
+  }
