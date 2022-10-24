@@ -40,13 +40,6 @@ body {
     opacity: 0.65;
   }
   
-  /* ------- Left Nav Items ------- */
-  
-  .l_nav {
-    float: left;
-    padding-top: 10px;
-  }
-  
   /* ------- Right Nav Items ------- */
   
   .r_nav {
